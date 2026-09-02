@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Resting HR</string>
-    <string name="idle_prompt">Sit still for three minutes to measure your resting heart rate.</string>
+    <string name="idle_prompt">Relax and sit still.</string>
     <string name="start_measuring">Start measuring</string>
     <string name="measuring_hint">Sit still and keep your wrist steady.</string>
     <string name="bpm_unit">bpm</string>
@@ -10,5 +10,5 @@
     <string name="error_sensor">The heart rate sensor didn\'t start.</string>
     <string name="error_no_readings">No readings came through. Wear the watch snugly and try again.</string>
     <string name="error_interrupted">Measurement stopped. Keep the app open and your wrist raised.</string>
-    <string name="error_permission_denied">Resting HR needs permission to read your heart rate.</string>
+    <string name="error_permission_denied">Permission needed to read your heart rate.</string>
 </resources>
