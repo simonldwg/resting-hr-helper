@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ruheherzfrequenz</string>
+    <string name="start_measuring">Messung starten</string>
+    <string name="measuring_hint">Sitze entspannt und halte dein Handgelenk ruhig.</string>
+    <string name="bpm_unit">bpm</string>
+    <string name="error_sensor">Der Herzfrequenzsensor konnte nicht gestartet werden.</string>
+    <string name="error_no_readings">Keine Werte gelesen. Trage die Uhr eng anliegend und versuche es nochmal.</string>
+    <string name="error_interrupted">Messung angehalten. Lass die App offen.</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="error_not_supported">Diese Uhr kann keine Herzfrequenzen messen.</string>
+    <string name="error_permission_denied">Berechtigung benötigt, um deine Herzfrequenz zu messen.</string>
+    <string name="idle_prompt">Entspann dich und sitze ruhig.</string>
+    <string name="measure_again">Neu starten</string>
+</resources>

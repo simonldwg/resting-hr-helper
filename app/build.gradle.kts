@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -46,21 +48,20 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.ui.tooling)
     implementation(libs.core.splashscreen)
-    implementation(libs.guava)
-    implementation(libs.play.services.wearable)
-    implementation(libs.protolayout)
-    implementation(libs.protolayout.material3)
-    implementation(libs.tiles)
-    implementation(libs.tiles.tooling.preview)
+    implementation(libs.health.services.client)
+    implementation(libs.hilt.android)
+    implementation(libs.hilt.lifecycle.viewmodel.compose)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.lifecycle.runtime.compose)
     implementation(libs.ui)
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
-    implementation(libs.watchface.complications.data.source.ktx)
     implementation(libs.wear.tooling.preview)
+    ksp(libs.hilt.compiler)
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
-    debugImplementation(libs.tiles.renderer)
-    debugImplementation(libs.tiles.tooling)
     debugImplementation(libs.ui.test.manifest)
     debugImplementation(libs.ui.tooling)
 }
